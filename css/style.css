@@ -1,0 +1,57 @@
+
+#canvas {
+	float:left;
+    border-top:1px solid black;
+    border-left:1px solid black;
+}
+
+.custom-menu {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    overflow: hidden;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    font-family: sans-serif;
+    background: #FFF;
+    color: #333;
+    border-radius: 5px;
+    padding: 0;
+}
+.custom-menu li {
+    padding: 8px 12px;
+    cursor: pointer;
+    list-style-type: none;
+    transition: all .3s ease;
+    user-select: none;
+}
+
+.custom-menu li:hover {
+    background-color: #DEF;
+}
+#clear{
+	margin-bottom:30px;
+}
+table, th, td{
+	border:1px solid black;
+}
+.table_container{
+    float:left;
+}
+.table_nodi, .table_percorsi{
+	display: inline;
+		float:left;
+}
+.right_box{
+	margin-left: 20px;	
+	float:left;
+}
+.table_percorsi{
+	margin-left:20px;
+}
+#json{
+    width:700px;
+}
+#jsonButton{
+    margin-top:20px;
+}

@@ -1,0 +1,47 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+</head>
+
+<body>
+
+<div class="container">
+	<canvas id="canvas" width="521" height="521"></canvas>
+	<div class="right_box">
+		<div><button id="clear">Cancella</button> <a target="_blank" href="guida.html"><button>Guida</button></a></div>
+		<div class="table_container">
+<!-- Tabella nodi -->
+		<table id="table_nodi" class="table_nodi">
+			 <caption>Tabella nodi</caption>
+				<tr><th>ID nodo</th><th>Coordinata x</th><th>Coordinata y</th></tr>
+
+		</table>
+<!-- Tabella percorsi -->
+		<table id="table_percorsi" class="table_percorsi">
+			 <caption>Tabella percorso</caption>
+				<tr><th>Nodo partenza</th><th>Nodo destinazione</th></tr>
+		</table>
+		</div>	
+		<div><button id="jsonButton">Crea json percorsi</button></div>			
+		<div>
+			<textarea id="json" rows="25"></textarea>
+		</div>
+
+	</div>
+
+</div>
+
+<!-- Menu tasto destro-->
+		<ul class='custom-menu'>
+		  <li data-action="select">Seleziona</li>
+		</ul>
+
+
+<footer>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/right-click.js"></script>
+	<script src="js/script.js"></script>
+
+</footer>
+</body>
+</html>
